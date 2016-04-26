@@ -1,0 +1,298 @@
+
+
+
+/* ************ */
+/* ************ */
+/* HEADER STUFF */
+/* ************ */
+/* ************ */
+
+#header {
+    background-color: #f1f2f0;
+    width: 100%;
+    z-index: 99;
+    display: block;
+    position: fixed;
+    height: 70px;
+}
+#logo {
+    height: 40px;
+    width: 104px;
+    margin: 15px 0 0 15px;
+    display: inline-block;
+    position: relative;
+}
+#logo img {
+    width: 104px;
+}
+#links {
+    margin-top: 18px;
+    display: inline-block;
+    float: right;
+    margin-bottom: auto;
+    width: 86%;
+}
+#hidden {
+    float: left;
+}
+#links ul {
+    margin-top: -3px;
+    margin-bottom: auto;
+}
+#links li.link {
+    /*border: 1px solid rgba(51, 51, 51, 0.3);*/
+    border: 1px solid #e1e0dd;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+}
+#links #info li {
+    color: rgba(51, 51, 51, 0.8);
+    display: inline;
+    font-size: 11px;
+    padding: 7px 14px 7px 14px;
+    list-style-type: none;
+    margin-right: 10px;
+}
+#links #info li:hover {
+    color: rgba(40, 169, 224, 1);
+    transition: all 100ms ease-in-out;
+}
+#links a {
+    text-decoration: none;
+}
+#links li {
+    display: inline;
+    font-weight: bold;
+}
+#links #info {
+    float: right;
+    margin-top: 7px;
+}
+
+/* ************* */
+/* ************* */
+/* SECTION STUFF */
+/* ************* */
+/* ************* */
+
+.whitebackground {
+    background-color: #f1f2f0;
+}
+.section {
+    background-color: width: 100vw;
+    /*height: 100vh;*/
+    display: block;
+    z-index: 2;
+}
+#first {
+    position: relative;
+    height: calc(100vh - 20px);
+    overflow: hidden;
+    z-index: 5;
+}
+#mainbox {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#second {
+    margin-top: 300;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block-inline;
+    padding-bottom: 3em;
+}
+#howitworks #title {
+    font-size: 50px;
+    color: #2BA9E0;
+}
+#howitworks {
+    margin-top: 3em;
+}
+#howitworks img {
+    height: 200px;
+}
+#howitworks p {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 18px;
+    width: 500px;
+}
+#howitworks #text {
+    position: relative;
+    top: 35px;
+}
+#howitworks #iconr {
+    margin-left: 25px;
+}
+
+/* DOCUMENT COLORS
+    brown  #46454b
+    blue   #00aabb
+    whiteish  #e0e5da
+    red: #f43530 */
+.values {
+    width: 100%;
+    background-color: #e1e0dd;
+    padding-top: 100px;
+    padding-bottom: 170px;
+}
+.type {
+    display: table;
+    margin-left: auto;
+    padding-top: 30px;
+}
+.fulltype {
+    display: table;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.values h4 {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.values h6 {
+    text-align: center;
+
+}
+.value {
+    display: table;
+    padding-top: 20px;
+    font-size: 1.3em;
+}
+.bigvalue {
+    display: table;
+    font-weight: bold;
+    line-height: 60px;
+
+    text-align: justify;
+    font-size: 1.7em;
+}
+.values div span {
+    position: relative;
+    bottom: -20px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    text-align: center;
+    -webkit-transition: .4s;
+    transition: .3s;
+    opacity: 0;
+}
+#valuesbox {
+    width: 200px;
+    background-color: black;
+}
+
+img:hover+span, img:hover+span+span, img:hover+span+span+span, img:hover+span+span+span+span {
+    opacity: 1;
+    bottom: -36px;
+}
+img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+#third {
+    padding-top: 70px;
+    height: calc(100vh - 70px);
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    text-align: center;
+}
+span.blurb {
+    width: 75%;
+    font-size: 0.8em;
+}
+.section-contents {
+    max-width: 960px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1px;
+}
+.person {
+    float: left;
+    width: calc(33.33% - 20px);
+    height: 500px;
+}
+.person:nth-of-type(2) {
+    margin: 0 30px;
+}
+.person img {
+    -webkit-clip-path: circle(100px at center);
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    transition: all 100ms ease-in-out;
+    margin-bottom: -25px
+}
+.person img:hover {
+    transform: scale(1);
+    -webkit-clip-path: circle(110px at center);
+}
+.bio {
+    width: 90%;
+    text-align: justify;
+}
+span.name {
+
+    font-size: 1.3em;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('../img/frame1.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+    pointer-events: none;
+}
+.stopfade {
+    opacity: .5;
+}
+h1 {
+    margin-top: 0 !important;
+    font-weight: bold;
+    font-size: 7em;
+    color: #F2F2F2;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.50);
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 1.3em;
+    color: #F2F2F2;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.50);
+    margin-top: 0px;
+}
+@media screen and (max-width: 500px) {
+    div {
+        width: 70%;
+    }
+}
+@media screen and (max-device-width: 800px) {
+    html {
+        background: url('../img/frame1.jpg') #000 no-repeat center center fixed;
+
+    }
+}
